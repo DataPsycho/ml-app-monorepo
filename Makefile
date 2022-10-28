@@ -1,6 +1,8 @@
 run_pipeline:
-	python ml_pipeline/training.py
+	python ml/training.py
 run_backend:
 	PYTHONPATH=. python serverside/app.py
 run_frontend:
 	PYTHONPATH=. streamlit run clientside/app.py
+run_test_client:
+	PYTHONPATH=. python clientside/client.py

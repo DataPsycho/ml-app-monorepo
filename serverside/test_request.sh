@@ -1,4 +1,4 @@
-curl -X curl http://127.0.0.1:5000/healthcheck/
+curl http://127.0.0.1:5000/healthcheck/
 
 curl -X POST curl http://127.0.0.1:5000/predict/ \
    -H 'Content-Type: application/json' \
